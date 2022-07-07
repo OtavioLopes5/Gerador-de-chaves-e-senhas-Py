@@ -1,0 +1,1 @@
+from random import SystemRandom as sr ; import string as s; print(''.join(sr().choices(s.ascii_punctuation + s.punctuation,  k = 12 )))
